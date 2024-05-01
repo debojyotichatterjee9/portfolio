@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import simplifyImg from "@/public/simplify.png";
+import dochipoImg from "@/public/dochipo.png";
+import usrmgmtImg from "@/public/github.png";
 
 export const links = [
   {
@@ -47,7 +47,7 @@ export const projectsData = [
       "Django",
       "AWS",
     ],
-    imageUrl: corpcommentImg,
+    imageUrl: simplifyImg,
   },
   {
     title: "DocHipo",
@@ -65,7 +65,7 @@ export const projectsData = [
       "Mongoose",
       "Redux",
     ],
-    imageUrl: rmtdevImg,
+    imageUrl: dochipoImg,
   },
   {
     title: "User Profile Management",
@@ -80,7 +80,7 @@ export const projectsData = [
       "TypeORM",
       "PostgreSQL",
     ],
-    imageUrl: wordanalyticsImg,
+    imageUrl: usrmgmtImg,
   },
 ] as const;
 
@@ -91,7 +91,7 @@ export const experiencesData = [
     description:
       "Responsible for designing, implementing, and managing cloud-based infrastructure, ensuring optimal performance, security, and cost-effectiveness.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023",
+    date: "2023 - Present",
   },
   {
     title: "Development Lead",
